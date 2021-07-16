@@ -25,102 +25,10 @@
       <aside class="sidebar-section">
         <img src="./images/photo_2021-03-17_11-16-01.jpg" alt="My Photo" width="370" height="430" />
 
-        <!--Contacts Section-->
-        <div class="contacts-section">
-          <h3 class="sidebar-section-title">Contacts</h3>
-          <div>
-            <span class="contacts-section-type"> C:</span>
-            <a class="contacts-section-link" href="tel:+380931997877">
-              +38(093)199-78-77
-              <svg class="contacts__icon-smartphone" width="15" height="15">
-                <use href="./images/sprite.svg#icon-smartphone"></use>
-              </svg>
-            </a>
-          </div>
-          <div>
-            <span class="contacts-section-type"> E:</span>
-            <a class="contacts-section-link-email" href="mailto:dobrova2009@gmail.com">
-              dobrova2009@gmail.com
-              <svg class="contacts__icon-envelope" width="15" height="15">
-                <use href="./images/sprite.svg#icon-envelope"></use>
-              </svg>
-            </a>
-          </div>
-          <ul class="social-list">
-            <li class="social-list__item list">
-              <a href="" class="social-list__link link">
-                <svg class="social-list__icon" width="20" height="20">
-                  <use href="./images/sprite.svg#icon-instagram"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social-list__item list">
-              <a href="" class="social-list__link link">
-                <svg class="social-list__icon" width="20" height="20">
-                  <use href="./images/sprite.svg#icon-facebook"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social-list__item list">
-              <a href="" class="social-list__link link">
-                <svg class="social-list__icon" width="20" height="20">
-                  <use href="./images/sprite.svg#icon-linkedin"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </div>
-
-        <!--Tech Skills Section-->
-        <div class="tech-skills-section">
-          <h3 class="sidebar-section-title">Tech Skills</h3>
-          <ul class="tech-skills-list">
-            <li class="tech-skills-item">
-              <span class="tech-skills-item-text"> HTML5 (Partials)</span>
-            </li>
-            <li class="tech-skills-item">
-              <span class="tech-skills-item-text"> CSS3 (Flexbox, Grid)</span>
-            </li>
-            <li class="tech-skills-item">
-              <span class="tech-skills-item-text"> SASS / SCSS preprocessor </span>
-            </li>
-            <li class="tech-skills-item">
-              <span class="tech-skills-item-text"> GIT (GitHub Desktop, GitHub, GitBash)</span>
-            </li>
-            <li class="tech-skills-item">
-              <span class="tech-skills-item-text"> WebPack, Parcel </span>
-            </li>
-            <li class="tech-skills-item">
-              <span class="tech-skills-item-text"> JavaScript </span>
-            </li>
-            <li class="tech-skills-item">
-              <span class="tech-skills-item-text">
-                Biblioteques (JQuery, Slick, Animate.css, Wow.js, basiclightbox, pnotify,
-                tui-pagination, handlebars)
-              </span>
-            </li>
-            <li class="tech-skills-item">
-              <span class="tech-skills-item-text"> DOM, NPM, REST API </span>
-            </li>
-            <li class="tech-skills-item"><span class="tech-skills-item-text"> React.js </span></li>
-            <li class="tech-skills-item"><span class="tech-skills-item-text"> Node.js </span></li>
-          </ul>
-        </div>
-
-        <!--Soft Skills Section-->
-        <div class="soft-skills-section">
-          <h3 class="sidebar-section-title">Soft Skills</h3>
-          <ul class="soft-skills-list">
-            <li class="soft-skills-item"><span class="tech-skills-item-text"> Scrum </span></li>
-            <li class="soft-skills-item"><span class="tech-skills-item-text"> Agile </span></li>
-            <li class="soft-skills-item"><span class="tech-skills-item-text"> GTD </span></li>
-            <li class="soft-skills-item"><span class="tech-skills-item-text"> Teamwork </span></li>
-          </ul>
-        </div>
+        <include src="./partials/contacts-section.html"></include>
+        <include src="./partials/skills-section.html"></include>
       </aside>
-      `
     </div>
-
     <script src="./index.js"></script>
   </body>
 </html>
