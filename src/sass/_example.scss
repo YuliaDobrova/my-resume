@@ -198,15 +198,18 @@ body {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  color: #565e6a;
-  text-decoration: none; /* Отменяем подчеркивание у ссылки */
+  color: #b8b8b8;
+  text-decoration: none;
+  letter-spacing: 0.05em;
 }
 .contacts-section-link-email {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  color: #565e6a;
+  color: #b8b8b8;
+  text-decoration: none;
+  letter-spacing: 0.05em;
 }
 
 .tech-skills-section,
@@ -216,7 +219,7 @@ body {
 
 /* Tech-Skills section */
 .tech-skills-list {
-  padding: 0 0 0 17px;
+  padding: 0 30px 0 15px;
 }
 
 .tech-skills-item {
@@ -292,6 +295,7 @@ body {
 .social-list {
   display: inline-flex;
   margin-top: 16px;
+  padding-left: 20px;
   &__item {
     list-style: none;
     // border: 1px solid blue;
