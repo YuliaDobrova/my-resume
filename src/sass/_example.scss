@@ -1,6 +1,9 @@
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: #f5f7fa;
+  background-image: url('../images/bgResume.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .main-container {
@@ -87,7 +90,7 @@ body {
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
-  color: #fb6d3a;
+  color: rgb(10, 129, 184);
 }
 .my-work-experience-position {
   font-style: normal;
@@ -104,6 +107,7 @@ body {
   line-height: 55px;
   color: #000;
   margin-bottom: 25px;
+  text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 /* My projects section */
@@ -149,7 +153,7 @@ body {
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
-  color: #fb6d3a;
+  color: rgb(10, 129, 184);
   margin-bottom: 10px;
 }
 .my-education-section-specialization {
@@ -220,7 +224,7 @@ body {
   font-weight: bold;
   font-size: 14px;
   line-height: 24px;
-  color: #fb6d3a;
+  color: rgb(10, 129, 184);
 }
 
 .tech-skills-item-text {
@@ -241,7 +245,7 @@ body {
   font-weight: bold;
   font-size: 14px;
   line-height: 24px;
-  color: #fb6d3a;
+  color: rgb(10, 129, 184);
 }
 
 .soft-skills-item-text {
@@ -308,7 +312,7 @@ body {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     &:hover,
     &:focus {
-      background-color: #fb6d3a;
+      background-color: rgb(10, 129, 184);
     }
   }
   &__icon {
