@@ -3,4 +3,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"./../images/bgResume.jpg":[["bgResume.35a52ff9.jpg","dOOQ"],"dOOQ"]}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/_example.scss");
 },{"./sass/_example.scss":"xL76"}]},{},["Focm"], null)
-//# sourceMappingURL=/my-resume/src.01e1d416.js.map
+//# sourceMappingURL=/my-resume/src.f0769ee3.js.map
