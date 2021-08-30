@@ -15,6 +15,28 @@ body {
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 
+/* Main content section */
+.main-content-section {
+  padding: 80px 80px 80px 80px;
+}
+
+.main-content-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000;
+  margin-bottom: 10px;
+}
+.about-me-profession {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 17px;
+  color: #000;
+  margin-bottom: 20px;
+}
+
 /* About me section */
 .about-me-section {
   margin-bottom: 40px;
@@ -32,30 +54,7 @@ body {
   color: #595959;
 }
 
-/* Main content section */
-.main-content-section {
-  padding: 100px 90px 100px 90px;
-}
-
-.main-content-title {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 22px;
-  line-height: 27px;
-  color: #000;
-  margin-bottom: 10px;
-}
-.about-me-profession {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 17px;
-  color: #000;
-  margin-bottom: 20px;
-}
-
 /*  My work experience section */
-
 .my-work-experience-company-block {
   margin: 0 10px 0 0;
 }
@@ -128,6 +127,11 @@ body {
   line-height: 24px;
   color: #595959;
 }
+.my-projects-link:hover,
+.my-projects-link.focus {
+  color: rgb(10, 129, 184);
+}
+
 .my-projects-text {
   font-style: normal;
   font-weight: normal;
@@ -169,7 +173,7 @@ body {
 .sidebar-section {
   background-color: #1e2939;
   width: 370px;
-  padding: 40px 0 0 0;
+  padding: 30px 0 0 0;
 }
 
 .contacts-section {
@@ -182,6 +186,8 @@ body {
   font-size: 22px;
   line-height: 27px;
   color: #fff;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 /* Contacts section */
 .contacts-section-type {
@@ -212,9 +218,18 @@ body {
   letter-spacing: 0.05em;
 }
 
+.contacts-section-link:hover,
+.contacts-section-link:focus {
+  color: rgb(10, 129, 184);
+}
+.contacts-section-link-email:hover,
+.contacts-section-link-email:focus {
+  color: rgb(10, 129, 184);
+}
+
 .tech-skills-section,
 .soft-skills-section {
-  margin: 50px 0 0 40px;
+  margin: 30px 0 0 40px;
 }
 
 /* Tech-Skills section */
