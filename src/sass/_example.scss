@@ -40,7 +40,7 @@ p {
   font-size: 45px;
   line-height: 55px;
   color: #000;
-  margin-left: 15px;
+  // margin-left: 15px;
   margin-bottom: 25px;
   text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.5);
 }
@@ -51,7 +51,7 @@ p {
   line-height: 17px;
   letter-spacing: 0.04em;
   color: #000;
-  margin-left: 20px;
+  // margin-left: 20px;
   margin-bottom: 40px;
   text-transform: uppercase;
   text-shadow: 2px 1px 3px rgba(148, 148, 148, 0.8);
@@ -63,6 +63,7 @@ p {
 }
 
 .about-me-description {
+  width: 850px;
   // width: 485px;
   // height: 107px;
   left: 498px;
@@ -186,13 +187,14 @@ p {
 /* Sidebar section */
 .sidebar-section {
   background-color: #1e2939;
-  width: 300px;
+  // width: 300px;
+  width: 350px;
   width: 65vw;
   padding: 20px 0 0 0;
 }
 .photo {
-  width: 175px;
-  height: 200px;
+  // width: 175px;
+  // height: 200px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -201,7 +203,7 @@ p {
 @media screen and (min-width: 400px) {
   .photo {
     width: 280px;
-    height: 340px;
+    // height: 340px;
   }
 }
 
