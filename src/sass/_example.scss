@@ -42,7 +42,7 @@ p {
   color: #000;
   // margin-left: 15px;
   margin-bottom: 25px;
-  text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.5);
+  // text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.5);
 }
 .about-me-profession {
   font-style: normal;
@@ -54,7 +54,7 @@ p {
   // margin-left: 20px;
   margin-bottom: 40px;
   text-transform: uppercase;
-  text-shadow: 2px 1px 3px rgba(148, 148, 148, 0.8);
+  // text-shadow: 2px 1px 3px rgba(148, 148, 148, 0.8);
 }
 
 /* About me section */
@@ -188,12 +188,18 @@ p {
 .sidebar-section {
   background-color: #1e2939;
   // width: 300px;
-  width: 350px;
-  width: 65vw;
+  // width: 350px;
+  width: 100vw;
   padding: 20px 0 0 0;
 }
+@media screen and (min-width: 400px) {
+  .sidebar-section {
+    // width: 350px;
+    width: 65vw;
+  }
+}
 .photo {
-  // width: 175px;
+  width: 250px;
   // height: 200px;
   display: block;
   margin-left: auto;
