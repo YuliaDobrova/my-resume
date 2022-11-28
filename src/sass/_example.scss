@@ -20,10 +20,21 @@ p {
   margin: 0 auto;
   // box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
+@media screen and (max-width: 400px) {
+  .main-container {
+    width: 1000px;
+  }
+}
 
 /* Main content section */
 .main-content-section {
   padding: 30px 50px 50px 50px;
+
+}
+@media screen and (max-width: 400px) {
+  .main-content-section {
+    width: 700px;
+  }
 }
 
 .main-content-title {
@@ -73,6 +84,11 @@ p {
   font-size: 14px;
   line-height: 24px;
   color: black;
+}
+@media screen and (max-width: 400px) {
+  .about-me-description  {
+    width: 600px;
+  }
 }
 
 /* My projects section */
@@ -199,7 +215,7 @@ p {
   }
 }
 .photo {
-  width: 250px;
+  width: 265px;
   // height: 200px;
   display: block;
   margin-left: auto;
@@ -214,7 +230,12 @@ p {
 }
 
 .contacts-section {
-  margin: 30px 0 0 60px;
+  margin: 30px 10px 0 40px;
+}
+@media screen and (max-width: 400px) {
+  .contacts-section {
+    margin: 20px 0 0 20px;
+  }
 }
 
 .sidebar-section-title {
@@ -272,7 +293,13 @@ p {
 
 .tech-skills-section,
 .soft-skills-section {
-  margin: 25px 0 0 80px;
+  margin: 20px 0 0 40px;
+}
+@media screen and (max-width: 400px) {
+  .tech-skills-section,
+  .soft-skills-section {
+    margin: 0 15px 0 20px;
+  }
 }
 
 /* Tech-Skills section */
