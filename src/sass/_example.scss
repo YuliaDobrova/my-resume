@@ -28,7 +28,7 @@ p {
 
 /* Main content section */
 .main-content-section {
-  padding: 30px 50px 50px 50px;
+  padding: 10px 50px 50px 50px;
 }
 @media screen and (max-width: 400px) {
   .main-content-section {
@@ -103,7 +103,7 @@ p {
 }
 .my-projects-link {
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 14px;
   line-height: 24px;
   color: black;
@@ -152,6 +152,7 @@ p {
 
 .my-work-experience-duties {
   padding-left: 20px;
+  margin-top: 5px;
 }
 .my-work-experience-duty {
   font-style: normal;
@@ -197,6 +198,22 @@ p {
   color: #000000;
   margin-bottom: 10px;
   margin-top: 10px;
+}
+.my-education-section-rombsign {
+  color: #000000;
+  text-decoration: none;
+}
+.my-education-section-link {
+  font-style: normal;
+  // font-weight: bold;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: black;
+  text-decoration: underline;
+}
+.my-education-section-dates {
+  font-weight: normal;
 }
 
 /* Sidebar section */
