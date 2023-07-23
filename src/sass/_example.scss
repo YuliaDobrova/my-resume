@@ -92,9 +92,10 @@ p {
 
 /* My projects section */
 .my-projects-section {
-  margin: 0 0 30px 0;
+  margin: 26px 0 10px 0;
 }
 .my-projects-list {
+  margin-top: 0px;
   padding: 0 0 0 17px;
 }
 .my-projects-item {
@@ -189,6 +190,7 @@ p {
   line-height: 20px;
   color: rgb(10, 129, 184);
   margin-bottom: 10px;
+  margin-top: 10px;
 }
 .my-education-section-specialization {
   font-style: normal;
