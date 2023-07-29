@@ -229,7 +229,7 @@ p {
 @media screen and (min-width: 400px) {
   .sidebar-section {
     // width: 350px;
-    width: 65vw;
+    width: 75vw;
   }
 }
 .photo {
@@ -248,7 +248,7 @@ p {
 }
 
 .contacts-section {
-  margin: 30px 10px 0 40px;
+  margin: 30px 20px 0 40px;
 }
 @media screen and (max-width: 400px) {
   .contacts-section {
@@ -286,6 +286,10 @@ p {
   text-decoration: none;
   letter-spacing: 0.05em;
 }
+.contacts-section-underlined-link {
+  text-decoration: underline;
+}
+
 .contacts-section-link-email {
   font-style: normal;
   font-weight: normal;
